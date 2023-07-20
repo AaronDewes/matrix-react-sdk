@@ -40,7 +40,7 @@ import getExportCSS from "./exportCSS";
 import { textForEvent } from "../../TextForEvent";
 import { haveRendererForEvent } from "../../events/EventTileFactory";
 
-import exportJS from "!!raw-loader!./exportJS";
+import exportJS from "./exportJS?raw";
 
 export default class HTMLExporter extends Exporter {
     protected avatars: Map<string, boolean>;
