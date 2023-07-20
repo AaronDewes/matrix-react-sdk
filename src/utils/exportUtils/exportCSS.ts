@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import customCSS from "!!raw-loader!./exportCustomCSS.css";
+import customCSS from "./exportCustomCSS.css?raw";
 
 const cssSelectorTextClassesRegex = /\.[\w-]+/g;
 

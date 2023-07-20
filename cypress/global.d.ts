@@ -16,7 +16,6 @@ limitations under the License.
 
 import "../src/@types/global";
 import "../src/@types/svg";
-import "../src/@types/raw-loader";
 import "matrix-js-sdk/src/@types/global";
 import type {
     MatrixClient,
